@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" ?
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>C++ Programing Introduction</title>
+</head>
+
+<body>
+  <main id="main-doc">
+    <section class="main-section" id="C++_Introduction">
+      <header>C++ Introduction</header>
+        <p>&nbspC++ is a powerful and versatile programming language that has been widely used in software development for several decades. It was developed as an extension of the C programming language with added features for object-oriented programming (OOP). C++ combines the efficiency and low-level control of C with high-level features that enable developers to create complex and efficient software systems.</p>
+        <p id="part2-introduction">&nbspC++ is used in a wide range of applications, including systems programming, game development, embedded systems, scientific computing, and more.</p>
+        <pre>
+        <code>#include &ltiostream&gt
+          int main {
+            std::cout << "hello world!" << '/n';
+            return 0;
+          }
+        </code>
+        </pre>
+        <ul>
+          <li>Loops</li>
+          <li>Conditional Statements</li>
+          <li>Arrays</li>
+          <li>Pointers</li>
+          <li>What now?</li>
+          </ul>
+        
+    </section>
+
+    <section class="main-section" id="Loops">
+      <header>Loops </header>
+        <p>What is a loop?</p>
+        <p>Loop is a defined set of instructions that will execute until a condition is true.</p>
+                <pre>
+        <code>#include &ltiostream&gt
+          int main {
+            for (int i{}; i < 10; i++) // for loop example
+            std::cout << i << '/n';
+            return 0;
+          }
+        </code>
+        </pre>
+        
+    </section>
+
+    <section class="main-section" id="Conditional_Statements">
+      <header>Conditional Statements</header>
+        <p>What are conditional statements?</p>
+        <p>If a condition evaluates to true/false then appropriate set of instructions is executed. </p>
+                <pre>
+        <code>#include &ltiostream&gt
+          int main {
+            if (1 = 2){
+              std::cout << "If true this will be executed" << '/n';           
+            } else {
+              std::cout << "If false this will be executed" << '/n';
+            }
+            return 0;
+          }
+        </code>
+        </pre>
+        
+    </section>
+
+    <section class="main-section" id="Arrays">
+      <header>Arrays</header>
+        <p>What is array?</p>
+        <p>Array is a bunch of variables stacked together in one object. 
+          So you can have 10 int variables in one array.</p>
+                <pre>
+        <code>#include &ltiostream&gt
+          int main {
+            int x[10];
+            int x[2] = 11;
+            std::cout << x[2] << '/n';
+            return 0;
+          }
+        </code>
+        </pre>
+        
+    </section>
+
+    <section class="main-section" id="Pointers">
+      <header>Pointers</header>
+        <p>What's a pointer?</p>
+        <p>Pointer is a memory address of something. It can be a variable. It is faster than accesing it the normal.</p>
+                <pre>
+        <code>#include &ltiostream&gt
+          int main {
+            int x{4};
+            int *pointer_variable = &x; // pointer that get assigned address of x
+            std::cout << &x << '/n';
+            return 0;
+          }
+        </code>
+        </pre>
+        
+    </section>
+
+  </main>
+  <nav id="navbar">
+    <header>
+      <h1 class="sidebar-title">Introduction to programming in C++</h1>
+   
+    </header>
+    <ul id="chapters">
+<li>
+     <a class="nav-link" href="#C++_Introduction">C++ Introduction</a>
+</li>
+<li>
+    <a class="nav-link" href="#Loops">Loops</a>
+</li>
+<li>
+    <a class="nav-link" href="#Conditional_Statements">Conditional Statements</a>
+</li>
+<li>
+    <a class="nav-link" href="#Arrays">Arrays</a>
+    </li>
+    <li>
+
+     <a class="nav-link" href="#Pointers">Pointers</a>
+     </li>
+</ul>
+  </nav>
+</body>
+
+</html>
